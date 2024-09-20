@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="20%" alt="MEDSCRIBE.GIT-logo">
+  <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="20%" alt="KNOWLEDGE-EXTRACT.GIT-logo">
 </p>
 <p align="center">
-    <h1 align="center">MEDSCRIBE.GIT</h1>
+    <h1 align="center">KNOWLEDGE-EXTRACT.GIT</h1>
 </p>
 <p align="center">
     <em><code>❯ REPLACE-ME</code></em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/sandeepsalwan1/MedScribe.git?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/sandeepsalwan1/MedScribe.git?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/sandeepsalwan1/MedScribe.git?style=default&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/sandeepsalwan1/MedScribe.git?style=default&color=0080ff" alt="repo-language-count">
+	<img src="https://img.shields.io/github/license/sandeepsalwan1/knowledge-extract.git?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/sandeepsalwan1/knowledge-extract.git?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/sandeepsalwan1/knowledge-extract.git?style=default&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/sandeepsalwan1/knowledge-extract.git?style=default&color=0080ff" alt="repo-language-count">
 </p>
 <p align="center">
 	<!-- default option, no dependency badges. -->
@@ -52,13 +52,28 @@
 ##  Repository Structure
 
 ```sh
-└── MedScribe.git/
-    ├── MedicalCopilot
-    │   ├── multionapi.py
-    │   ├── scripts
-    │   └── server
+└── knowledge-extract.git/
     ├── README.md
-    └── requirements.txt
+    ├── client_backend
+    │   ├── Dockerfile
+    │   ├── README.md
+    │   ├── __pycache__
+    │   ├── conversation_custom.py
+    │   ├── main.py
+    │   ├── poetry.lock
+    │   ├── prompts.py
+    │   ├── pyproject.toml
+    │   └── test_ai.py
+    ├── python_direct
+    │   └── run.py
+    ├── requirements.txt
+    └── vocode-web
+        ├── README.md
+        ├── config-overrides.js
+        ├── package-lock.json
+        ├── package.json
+        ├── public
+        └── src
 ```
 
 ---
@@ -69,37 +84,64 @@
 
 | File | Summary |
 | --- | --- |
-| [requirements.txt](https://github.com/sandeepsalwan1/MedScribe.git/blob/main/requirements.txt) | <code>❯ REPLACE-ME</code> |
+| [requirements.txt](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/requirements.txt) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
-<details closed><summary>MedicalCopilot</summary>
+<details closed><summary>python_direct</summary>
 
 | File | Summary |
 | --- | --- |
-| [multionapi.py](https://github.com/sandeepsalwan1/MedScribe.git/blob/main/MedicalCopilot/multionapi.py) | <code>❯ REPLACE-ME</code> |
+| [run.py](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/python_direct/run.py) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
-<details closed><summary>MedicalCopilot.server</summary>
+<details closed><summary>vocode-web</summary>
 
 | File | Summary |
 | --- | --- |
-| [Dockerfile](https://github.com/sandeepsalwan1/MedScribe.git/blob/main/MedicalCopilot/server/Dockerfile) | <code>❯ REPLACE-ME</code> |
-| [pyproject.toml](https://github.com/sandeepsalwan1/MedScribe.git/blob/main/MedicalCopilot/server/pyproject.toml) | <code>❯ REPLACE-ME</code> |
-| [voice.py](https://github.com/sandeepsalwan1/MedScribe.git/blob/main/MedicalCopilot/server/voice.py) | <code>❯ REPLACE-ME</code> |
-| [poetry.lock](https://github.com/sandeepsalwan1/MedScribe.git/blob/main/MedicalCopilot/server/poetry.lock) | <code>❯ REPLACE-ME</code> |
-| [main.py](https://github.com/sandeepsalwan1/MedScribe.git/blob/main/MedicalCopilot/server/main.py) | <code>❯ REPLACE-ME</code> |
+| [package-lock.json](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/vocode-web/package-lock.json) | <code>❯ REPLACE-ME</code> |
+| [package.json](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/vocode-web/package.json) | <code>❯ REPLACE-ME</code> |
+| [config-overrides.js](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/vocode-web/config-overrides.js) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
-<details closed><summary>MedicalCopilot.scripts</summary>
+<details closed><summary>client_backend</summary>
 
 | File | Summary |
 | --- | --- |
-| [pyproject.toml](https://github.com/sandeepsalwan1/MedScribe.git/blob/main/MedicalCopilot/scripts/pyproject.toml) | <code>❯ REPLACE-ME</code> |
-| [voice_streaming.py](https://github.com/sandeepsalwan1/MedScribe.git/blob/main/MedicalCopilot/scripts/voice_streaming.py) | <code>❯ REPLACE-ME</code> |
-| [poetry.lock](https://github.com/sandeepsalwan1/MedScribe.git/blob/main/MedicalCopilot/scripts/poetry.lock) | <code>❯ REPLACE-ME</code> |
+| [Dockerfile](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/client_backend/Dockerfile) | <code>❯ REPLACE-ME</code> |
+| [pyproject.toml](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/client_backend/pyproject.toml) | <code>❯ REPLACE-ME</code> |
+| [test_ai.py](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/client_backend/test_ai.py) | <code>❯ REPLACE-ME</code> |
+| [prompts.py](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/client_backend/prompts.py) | <code>❯ REPLACE-ME</code> |
+| [poetry.lock](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/client_backend/poetry.lock) | <code>❯ REPLACE-ME</code> |
+| [main.py](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/client_backend/main.py) | <code>❯ REPLACE-ME</code> |
+| [conversation_custom.py](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/client_backend/conversation_custom.py) | <code>❯ REPLACE-ME</code> |
+
+</details>
+
+<details closed><summary>vocode-web.public</summary>
+
+| File | Summary |
+| --- | --- |
+| [index.html](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/vocode-web/public/index.html) | <code>❯ REPLACE-ME</code> |
+| [manifest.json](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/vocode-web/public/manifest.json) | <code>❯ REPLACE-ME</code> |
+| [robots.txt](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/vocode-web/public/robots.txt) | <code>❯ REPLACE-ME</code> |
+
+</details>
+
+<details closed><summary>vocode-web.src</summary>
+
+| File | Summary |
+| --- | --- |
+| [reportWebVitals.js](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/vocode-web/src/reportWebVitals.js) | <code>❯ REPLACE-ME</code> |
+| [App.css](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/vocode-web/src/App.css) | <code>❯ REPLACE-ME</code> |
+| [index.js](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/vocode-web/src/index.js) | <code>❯ REPLACE-ME</code> |
+| [index.css](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/vocode-web/src/index.css) | <code>❯ REPLACE-ME</code> |
+| [App.test.js](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/vocode-web/src/App.test.js) | <code>❯ REPLACE-ME</code> |
+| [ConversationComponent.js](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/vocode-web/src/ConversationComponent.js) | <code>❯ REPLACE-ME</code> |
+| [setupTests.js](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/vocode-web/src/setupTests.js) | <code>❯ REPLACE-ME</code> |
+| [App.js](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/vocode-web/src/App.js) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
@@ -109,25 +151,25 @@
 
 ###  Prerequisites
 
-**Python**: `version x.y.z`
+**JavaScript**: `version x.y.z`
 
 ###  Installation
 
 Build the project from source:
 
-1. Clone the MedScribe.git repository:
+1. Clone the knowledge-extract.git repository:
 ```sh
-❯ git clone https://github.com/sandeepsalwan1/MedScribe.git
+❯ git clone https://github.com/sandeepsalwan1/knowledge-extract.git
 ```
 
 2. Navigate to the project directory:
 ```sh
-❯ cd MedScribe.git
+❯ cd knowledge-extract.git
 ```
 
 3. Install the required dependencies:
 ```sh
-❯ pip install -r requirements.txt
+❯ npm install
 ```
 
 ###  Usage
@@ -135,7 +177,7 @@ Build the project from source:
 To run the project, execute the following command:
 
 ```sh
-❯ python main.py
+❯ node app.js
 ```
 
 ###  Tests
@@ -143,7 +185,7 @@ To run the project, execute the following command:
 Execute the test suite using the following command:
 
 ```sh
-❯ pytest
+❯ npm test
 ```
 
 ---
@@ -160,9 +202,9 @@ Execute the test suite using the following command:
 
 Contributions are welcome! Here are several ways you can contribute:
 
-- **[Report Issues](https://github.com/sandeepsalwan1/MedScribe.git/issues)**: Submit bugs found or log feature requests for the `MedScribe.git` project.
-- **[Submit Pull Requests](https://github.com/sandeepsalwan1/MedScribe.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-- **[Join the Discussions](https://github.com/sandeepsalwan1/MedScribe.git/discussions)**: Share your insights, provide feedback, or ask questions.
+- **[Report Issues](https://github.com/sandeepsalwan1/knowledge-extract.git/issues)**: Submit bugs found or log feature requests for the `knowledge-extract.git` project.
+- **[Submit Pull Requests](https://github.com/sandeepsalwan1/knowledge-extract.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **[Join the Discussions](https://github.com/sandeepsalwan1/knowledge-extract.git/discussions)**: Share your insights, provide feedback, or ask questions.
 
 <details closed>
 <summary>Contributing Guidelines</summary>
@@ -170,7 +212,7 @@ Contributions are welcome! Here are several ways you can contribute:
 1. **Fork the Repository**: Start by forking the project repository to your github account.
 2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
    ```sh
-   git clone https://github.com/sandeepsalwan1/MedScribe.git
+   git clone https://github.com/sandeepsalwan1/knowledge-extract.git
    ```
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
@@ -193,8 +235,8 @@ Contributions are welcome! Here are several ways you can contribute:
 <summary>Contributor Graph</summary>
 <br>
 <p align="left">
-   <a href="https://github.com{/sandeepsalwan1/MedScribe.git/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=sandeepsalwan1/MedScribe.git">
+   <a href="https://github.com{/sandeepsalwan1/knowledge-extract.git/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=sandeepsalwan1/knowledge-extract.git">
    </a>
 </p>
 </details>
